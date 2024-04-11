@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- input -->
+        <input type="text" id="pokemonName" placeholder="Enter Name">
+        <!-- buttons -->
+        <button onclick="fetchData()">PokeMon</button>
+        <button type="reset" id="reset">Reset</button><br>
+        <!-- error msg -->
+        <h2 style="font-weight: 100; font-size: 220x; display: none;" id="error">Opps! No pokemon found</h2>
+        <!-- image -->
+        <img src="" id="pokemonSprite" alt="Pokemon Sprite" style="display: none;">
+    </div>
+    
+</body>
+<script src="app.js"></script>
+</html>
